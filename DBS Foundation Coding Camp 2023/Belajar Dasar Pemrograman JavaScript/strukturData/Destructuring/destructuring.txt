@@ -1,0 +1,17 @@
+Destructuring dalam JavaScript merupakan sintaksis yang dapat mengeluarkan nilai dari array atau properties dari sebuah object ke dalam satuan yang lebih kecil.
+
+const profile = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 18
+}
+ 
+contoh 
+    |
+    v -> dengan meng de structuring kita dapat memasukan nilai data obj kedalam variabel lokal agar lebih sederhana
+    
+const firstName = profile.firstName
+const lastName = profile.lastName
+const age = profile.age
+ 
+console.log(firstName, lastName, age)
